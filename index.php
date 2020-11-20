@@ -1,21 +1,9 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/estilos.css">
-
-  <title>Ristorante Con Fusion</title>
-
-</head>
-
-<body>
+  <?php 
+  $titulo = "Ristorante Con Fusion";
+  
+  include_once 'plantillas/dec-inicio.inc.php';
+  include_once 'plantillas/navbar.inc.php';
+  ?>
 
   <header class="jumbotron">
     <div class="container">
@@ -76,7 +64,7 @@
           <h5>Links</h5>
           <ul class="list-unstyled">
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="./aboutus.html">About</a></li>
             <li><a href="#">Menu</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
