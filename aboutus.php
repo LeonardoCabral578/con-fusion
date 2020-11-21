@@ -14,7 +14,8 @@ include_once 'plantillas/navbar.inc.php';
                 <p>We take inspiration from the World's best cuisines, and create a unique fusion experience.
                     Our lipsmacking creations will tickle your culinary senses!</p>
             </div>
-            <div class="col-12 col-sm">
+            <div class="col-12 col-sm align-self-center">
+                <img src="img/logo.png" class="img-fluid">
             </div>
         </div>
     </div>
@@ -63,7 +64,7 @@ include_once 'plantillas/navbar.inc.php';
         <div class="col-12">
             <div class="card card-body bg-light">
                 <blockquote class="blockquote">
-                    <p class="mb-0">You better cut the pizza in four pieces 
+                    <p class="mb-0">You better cut the pizza in four pieces
                         because I'm not hungry enough to eat six.
                     </p>
                     <footer class="blockquote-footer">Yogi Berra,
