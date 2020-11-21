@@ -6,10 +6,10 @@
       <a class="navbar-brand mr-auto" href="./index.php">Ristorante Con Fusion</a>
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item <?php echo $indexActivo?>"><a class="nav-link" href="./index.php">Home</a></li>
-          <li class="nav-item <?php echo $aboutusActivo?>"><a class="nav-link" href="./aboutus.php">About</a></li>
-          <li class="nav-item <?php echo $estaActivo?>"><a class="nav-link" href="#">Menu</a></li>
-          <li class="nav-item <?php echo $estaActivo?>"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item <?php echo $indexActivo?>"><a class="nav-link" href="./index.php"><span class="fa fa-home fa-lg"> Home</a></li>
+          <li class="nav-item <?php echo $aboutusActivo?>"><a class="nav-link" href="./aboutus.php"><span class="fa fa-info fa-lg"> About</a></li>
+          <li class="nav-item <?php echo $estaActivo?>"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"> Menu</a></li>
+          <li class="nav-item <?php echo $contactusActivo?>"><a class="nav-link" href="./contactus.php"><span class="fa fa-address-card fa-lg">Contact</a></li>
         </ul>
       </div>
     </div>
