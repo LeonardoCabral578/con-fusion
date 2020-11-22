@@ -17,10 +17,11 @@ include_once 'plantillas/navbar.inc.php';
       <div class="col-12 col-sm align-self-center">
         <img src="img/logo.png" class="img-fluid">
       </div>
-      <div class="col-12 col-md-3 col-sm-12">
-        <div class="row">
-          <a class="col-12" href="#reserve"><button type="button" class="btn btn-lg btn-warning col-12"><strong>Reserve Table</strong></button></a>
-        </div>
+      <div class="col-12 col-sm align-self-center">
+          <a role="button" class="btn btn-block nav-link btn-warning"
+            data-toggle="tooltip" data-html="true" 
+            title="Or call us at <br><strong>+852 12345678</strong>"
+            data-placement="bottom" href="#carta-reservacion"><strong>Reserve Table</strong></a>
       </div>
     </div>
   </div>
