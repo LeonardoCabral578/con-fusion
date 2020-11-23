@@ -1,5 +1,11 @@
 # con-fusion
-NPM: 
-- Font-awesome @4.7.0
-- Bootstrap-social @5.1.1
-- Less @2.7.2
+"dependencies": {
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0"
+  },
+
+  "devDependencies": {
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.2"
+  },
+

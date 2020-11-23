@@ -1,5 +1,5 @@
 {
-  "name": "git-test",
+  "name": "con-fusion",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -8,12 +8,15 @@
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.2"
   },
   "scripts": {
-    "start": "npm run lite",
+    "start": "npm run watch:less",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "less": "lessc src/estilos.less css/estilos.css",
+    "watch:less": "onchange \"./src/estilos.less\" -- npm run less"
   },
   "repository": {
     "type": "git",
