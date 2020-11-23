@@ -153,12 +153,20 @@ include_once 'plantillas/navbar.inc.php';
           <li data-target="#mycarousel" data-slide-to="1"></li>
           <li data-target="#mycarousel" data-slide-to="2"></li>
         </ol>
-        <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#mycarousel" id="Cnextprev" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon"></span>
         </a>
-        <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#mycarousel" id="Cnextprev" role="button" data-slide="next">
           <span class="carousel-control-next-icon"></span>
         </a>
+        <div class="btn-group" id="carouselButton">
+          <button class="btn btn-danger btn-sm" id="carousel-pause">
+            <span class="fa fa-pause"></span>
+          </button>
+          <button class="btn btn-danger btn-sm" id="carousel-play">
+            <span class="fa fa-play"></span>
+          </button>
+        </div>
       </div>
     </div>
   </div>

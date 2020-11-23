@@ -67,3 +67,17 @@ body {
 .btn-warning {
     color: rgb(255, 255, 255) !important;
 }
+
+#Cnextprev {
+    z-index: 1000;
+}
+
+#carousel-play, #carousel-pause {
+    z-index: 1001;
+}
+
+#carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+}
