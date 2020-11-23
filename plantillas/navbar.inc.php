@@ -12,7 +12,7 @@
         <li class="nav-item <?php echo $contactusActivo ?>"><a class="nav-link" href="./contactus.php"><span class="fa fa-address-card fa-lg">Contact</a></li>
       </ul>
       <span class="navbar-text">
-        <a data-toggle="modal" data-target="#loginModal">
+        <a id="loginButton">
           <span class="fa fa-sign-in"></span> Login
         </a>
       </span>

@@ -18,7 +18,7 @@ include_once 'plantillas/navbar.inc.php';
         <img src="img/logo.png" class="img-fluid">
       </div>
       <div class="col-12 col-sm align-self-center">
-        <a role="button" class="btn btn-block nav-link btn-warning" data-toggle="modal" data-target="#reserveModal" data-html="true" title="Or call us at <br><strong>+852 12345678</strong>" data-placement="bottom"><strong>Reserve Table</strong></a>
+        <a role="button" class="btn btn-block nav-link btn-warning" id="reserveButton" data-html="true" title="Or call us at <br><strong>+852 12345678</strong>" data-placement="bottom"><strong>Reserve Table</strong></a>
       </div>
     </div>
   </div>
@@ -153,10 +153,10 @@ include_once 'plantillas/navbar.inc.php';
           <li data-target="#mycarousel" data-slide-to="1"></li>
           <li data-target="#mycarousel" data-slide-to="2"></li>
         </ol>
-        <a class="carousel-control-prev" href="#mycarousel" id="Cnextprev" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon"></span>
         </a>
-        <a class="carousel-control-next" href="#mycarousel" id="Cnextprev" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
           <span class="carousel-control-next-icon"></span>
         </a>
           <button class="btn btn-danger btn-sm" id="carouselButton">
