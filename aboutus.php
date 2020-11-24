@@ -2,8 +2,8 @@
 $titulo = "About Us - Ristorante Con Fusion";
 $aboutusActivo = "active";
 
-include_once 'plantillas/dec-inicio.inc.php';
-include_once 'plantillas/navbar.inc.php';
+include_once 'plantillas/dec-inicio.php';
+include_once 'plantillas/navbar.php';
 ?>
 
 <header class="jumbotron">
@@ -204,6 +204,6 @@ include_once 'plantillas/navbar.inc.php';
 </div>
 
 <?php
-include_once 'plantillas/footer.inc.php';
-include_once 'plantillas/dec-final.inc.php';
+include_once 'plantillas/footer.php';
+include_once 'plantillas/dec-final.php';
 ?>

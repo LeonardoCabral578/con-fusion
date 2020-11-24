@@ -26,7 +26,7 @@
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* -o dist/img",
-    "usemin": "usemin contactus.php -d dist --phpmin -o dist/contactus.php && usemin aboutus.php -d dist --phpmin -o dist/aboutus.php && usemin index.php -d dist --phpmin -o dist/index.php",
+    "usemin": "usemin plantillas/dec-inicio.php -d dist --phpmin -o dist/plantillas/dec-inicio.php && usemin contactus.php -d dist --phpmin -o dist/contactus.php && usemin aboutus.php -d dist --phpmin -o dist/aboutus.php && usemin index.php -d dist --phpmin -o dist/index.php",
     "build": "npm run clean && npm run copyfonts && npm run imagemin && npm run usemin"
   },
   "repository": {
