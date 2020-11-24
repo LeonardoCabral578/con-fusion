@@ -8,15 +8,26 @@
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {
+    "cssmin": "^0.4.3",
+    "htmlmin": "0.0.7",
     "lite-server": "^2.6.1",
     "onchange": "^3.3.0",
-    "parallelshell": "^3.0.2"
+    "parallelshell": "^3.0.2",
+    "rimraf": "^2.6.2",
+    "uglify-php": "^1.0.7",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.5.1"
   },
   "scripts": {
     "start": "npm run watch:less",
     "test": "echo \"Error: no test specified\" && exit 1",
     "less": "lessc src/estilos.less css/estilos.css",
-    "watch:less": "onchange \"./src/estilos.less\" -- npm run less"
+    "watch:less": "onchange \"./src/estilos.less\" -- npm run less",
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img",
+    "usemin": "usemin contactus.php -d dist --phpmin -o dist/contactus.php && usemin aboutus.php -d dist --phpmin -o dist/aboutus.php && usemin index.php -d dist --phpmin -o dist/index.php",
+    "build": "npm run clean && npm run copyfonts && npm run imagemin && npm run usemin"
   },
   "repository": {
     "type": "git",
